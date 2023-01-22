@@ -23,3 +23,6 @@ body {
 h4 {
   font-style: italic;
 }
+.box {
+  margin: auto;
+}
