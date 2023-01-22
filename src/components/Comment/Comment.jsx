@@ -11,10 +11,10 @@ function Comment (){
     const handleCommentSubmit = (event) => {
         event.preventDefault();
 
-        // dispatch({
-        //     type: 'SET_FEELING', 
-        //     payload: feeling
-        // })
+        dispatch({
+            type: 'SET_FEELING', 
+            payload: feeling
+        })
         history.push('/review')
     }
 
