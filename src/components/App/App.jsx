@@ -12,6 +12,7 @@ import Understanding from '../Understanding/Understanding'
 import Support from '../Support/Support'
 import Comment from '../Comment/Comment'
 import Review from '../Review/Review'
+import Submit from '../Submit/Submit'
 
 function App() {
 
@@ -40,6 +41,9 @@ function App() {
         </Route>
         <Route exact path="/review">
           <Review />
+        </Route>
+        <Route exact path="/submit">
+          <Submit />
         </Route>
       </Router>
   );

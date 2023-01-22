@@ -1,7 +1,9 @@
 .App {
   text-align: center;
 }
-
+body {
+  text-align: center;
+}
 .App-header {
   background-color: #033076;
   min-height: 70px;

@@ -31,7 +31,7 @@ function Review (){
             console.error('handleSubmit fail:', err)
           })
 
-        history.push('/')
+        history.push('/submit')
     }
 
 
