@@ -36,6 +36,9 @@ function Understanding (){
             <button type="submit" >
                 Next
             </button>
+            <button onClick={() => {history.push('/')}}>
+                Back
+            </button>
         </form>
         </>
     )

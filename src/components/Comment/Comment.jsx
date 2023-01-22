@@ -35,6 +35,9 @@ function Comment (){
             <button type="submit" >
                 Next
             </button>
+            <button onClick={() => {history.push('/support')}}>
+                Back
+            </button>
         </form>
         </>
     )

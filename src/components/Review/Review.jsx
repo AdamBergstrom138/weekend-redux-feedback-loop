@@ -46,6 +46,9 @@ function Review (){
             <button type="submit" >
                 Submit
             </button>
+            <button onClick={() => {history.push('/comment')}}>
+                Back
+            </button>
         </form>
         </>
     )
