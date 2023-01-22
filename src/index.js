@@ -41,7 +41,7 @@ const reduxStore = createStore(combineReducers ({
 ReactDOM.render(
     <React.StrictMode>
         <Provider store={reduxStore}>
-            <App />, 
+            <App />
         </Provider>
     </React.StrictMode>,
  document.getElementById('root'));
